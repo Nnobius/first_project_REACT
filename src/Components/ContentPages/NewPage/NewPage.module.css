@@ -1,0 +1,20 @@
+.NewPage {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 420px 1fr;
+    margin: 30px 0 30px;
+}
+
+.new {
+    background-color: burlywood;
+    width: 1320px;
+    height: 1260px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.newItem {
+    border: 1px solid black;
+    width: 330px;
+    height: 420px;
+}

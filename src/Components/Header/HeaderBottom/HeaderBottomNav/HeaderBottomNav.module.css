@@ -1,0 +1,17 @@
+nav {
+    margin-top: -5px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.item:hover {
+    color: grey;
+}
+
+.item:focus {
+    color: red;
+}
+
+.item {
+    margin-right: 60px;
+}

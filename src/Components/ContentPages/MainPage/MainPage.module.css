@@ -1,0 +1,27 @@
+.MainPage {
+    background-color: white;
+    margin: 30px 0 30px;
+}
+
+.MainImg {
+    width: 1770px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+.SubMainImgs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.item {
+    border: 1px solid black;
+    width: 420px;
+    height: 420px;
+}
+
+.item p {
+    border: 1px solid black;
+}

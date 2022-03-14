@@ -1,0 +1,43 @@
+.CatalogProducts {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.itemProducts {
+    text-align: center;
+    border: 1px solid rgba(180, 180, 180, 0.5);
+    box-shadow: 3px 3px 5px rgba(180, 180, 180, 0.5);
+    width: 330px;
+    height: 420px;
+    display: grid;
+    grid-template-rows: 210px 80px 45px 30px auto;
+    align-items: center;
+}
+
+.nameItem {
+    margin: 0 auto;
+    width: 95%;
+    font-size: 14px;
+    weight: 600;
+}
+
+.availableItem {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.priceItem {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.buttonItem {
+
+}
+
+.itsButton {
+    background-color: rgba(231, 192, 219, 1);
+    font-weight: normal;
+    font-size: 20px;
+    padding: 3px 28px;
+}

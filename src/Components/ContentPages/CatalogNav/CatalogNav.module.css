@@ -1,0 +1,28 @@
+.CatalogNav {
+    background-color: white;
+    border: 1px solid rgba(180, 180, 180, 0.5);
+    box-shadow: 3px 3px 5px rgba(180, 180, 180, 0.5);
+    padding: 30px 50px;
+}
+
+.textareaDiv {
+    display: flex;
+}
+
+textarea {
+    border: 1px solid rgba(180, 180, 180, 1);
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    font-size: 25px;
+}
+
+input {
+    width: 25px;
+    border: 1px solid rgba(180, 180, 180, 1);
+}
+
+.item {
+    margin: 20px 0;
+}
+

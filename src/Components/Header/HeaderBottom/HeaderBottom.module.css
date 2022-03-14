@@ -1,0 +1,10 @@
+.HeaderBottom {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(252, 234, 230, 1);
+    position:relative;
+    z-index: 2;
+    border-radius: 15px;
+}

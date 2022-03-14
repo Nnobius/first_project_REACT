@@ -1,0 +1,8 @@
+.nav {
+    display: inline-block;
+}
+
+.nav a {
+    color: rgba(0, 0, 0, 0.5);
+    margin-right: 40px;
+}

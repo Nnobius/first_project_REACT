@@ -1,0 +1,66 @@
+.Footer {
+    grid-area: d;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.itemFooter {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+h3 {
+    margin: 60px 0 20px;
+    font-weight: 600;
+}
+
+.navFooter {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+}
+
+.navItem {
+    margin-bottom: 10px;
+}
+
+.navItem a {
+    padding: 5px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.navFooter a:hover {
+    color: black;
+    background-color: rgba(231, 192, 219, 1);
+    border-radius: 5px;
+}
+
+.contactItem {
+    margin-bottom: 30px;
+}
+
+.contactItem a:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.socialsItem {
+    margin-right: 25px;
+}
+
+.deliveryh {
+    margin-bottom: 15px;
+}
+
+.deliveryText {
+    margin-bottom: 30px;
+    border-radius: 4px;
+    border: 1px solid rgba(180, 180, 180, 0.5);
+    box-shadow: 3px 3px 5px rgba(180, 180, 180, 0.5);
+    padding: 5px;
+}

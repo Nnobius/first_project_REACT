@@ -1,0 +1,28 @@
+.HeaderTop {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.HeaderTop img {
+    width: 100%;
+}
+
+.phone {
+    text-align: center;
+}
+
+.phone a:hover {
+    color: grey;
+}
+
+.phone_nums {
+    font-size: 30px;
+}
+
+.phone_text {
+    margin-top: -10px;
+    font-size: 22px;
+}
